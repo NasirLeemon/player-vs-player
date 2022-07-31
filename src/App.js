@@ -20,19 +20,6 @@ const App = () => {
     // console.log(typeof value);
   };
 
-  // const generateRandomNumber = () => {
-
-  // // console.log(winningScore);
-  // // console.log(typeof winningScore);
-
-  //   setRandomNumber(Math.floor(Math.random() * winningScore) + 1)
-  //   // console.log(randomNumber);
-  //   // console.log( typeof randomNumber);
-  //   // console.log(winningScore);
-  //   // if (winningScore === randomNumber) {
-  //   //   console.log('WON The Game');
-  //   // }
-  // }
 
   const p1RandNum = () => {
     setRandomNumber(Math.floor(Math.random() * winningScore) + 1);
@@ -63,14 +50,7 @@ const App = () => {
     }
   };
 
-  // const ShowResult = () => {
-  //   if (player1Score === winningScore ) {
-  //      setResult('Player 1 won The Game');
-  //   } else if (player2Score === winningScore){
-  //     setResult('Player 2 Won The Game')
-  //   }
-  //   return
-  // }
+ 
 
   const reset = () => {
     setValue("");
